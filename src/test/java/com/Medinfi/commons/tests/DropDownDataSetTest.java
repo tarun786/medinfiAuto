@@ -34,7 +34,7 @@ public class DropDownDataSetTest
     	capabilities.setCapability("acceptInsecureCerts", true);
 		capabilities.setJavascriptEnabled(true);
 		capabilities.setCapability("marionette", false);
-		System.setProperty("webdriver.gecko.driver","C:\\geko\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver","driver\\geko\\geckodriver.exe");
 	    driver = new FirefoxDriver(capabilities);
 		driver.manage().window().maximize();
 		driver.navigate().to("http://www.medinfi.com");
